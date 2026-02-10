@@ -1,0 +1,232 @@
+/* ******************* headline ***************** */
+
+.headline {
+    background-color: #202020;
+    padding: 10px 20px;
+
+}
+
+.headline p {
+    font-weight: 500;
+    color: white;
+}
+
+.headline a {
+    color: white;
+}
+
+.headline a i {
+    color: var(--color-bg);
+}
+
+
+.headline span a {
+    color: var(--color-bg);
+}
+
+.headline-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+
+
+/* ***************** header  ******************** */
+
+.header {
+    padding: 3px 10px;
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-inline: auto;
+    gap: 20px;
+}
+
+.header-content .header__logo {
+    width: 160px;
+}
+
+.header-content .header__logo img {
+    background-color: black;
+}
+
+
+.header-content .header__menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-content .header__menu .menu__link {
+    font-weight: 500;
+    color: white;
+}
+
+.btn-outline {
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-outline:hover {
+    background-color: var(--color-bg);
+    color: white;
+}
+
+
+/* ******************** hero section ********************* */
+
+
+.swiper {
+    height: 75vh;
+}
+
+.swiper-wrapper {}
+
+
+.swiper-slide {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.slide-content {
+    max-width: 1000px;
+    margin-inline: auto;
+    display: flex;
+}
+.slide-content .text {
+    
+}
+.slide-content .text h3 {
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+/* **************call section*************  */
+
+.call {
+    background-color: var(--color-bg);
+}
+
+.call h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.call h2 a {
+    color: white;
+}
+
+
+/* *************** services section ***************  */
+
+.services{
+    padding: 4rem 15px;
+}
+
+.services > h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.services > p {
+    text-align: center;
+    max-width: 800px;
+    margin-inline:auto;
+    margin-bottom: 25px;
+}
+
+.services .services-content{
+    margin-inline: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.services-content .service{
+    padding: 10px;
+    background-color: rgb(255, 251, 246);
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-content .service img{
+    width: 100px;
+    margin-bottom: 5px;
+}
+.services-content .service h4{
+    color: #4e4e4e;
+    font-size: 14px;
+}
+
+
+
+/* ************ warranty ***************  */
+
+
+.warranty {
+    padding: 3rem 15px;
+}
+.warranty-content{
+    max-width: 1000px;
+    margin-inline:auto;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 25px;
+
+}
+.warranty-content .left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.warranty-content .left .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+.warranty-content .left .box img{
+    width: 100px;
+}
+.warranty-content .left .box h4{
+    font-size: 14px;
+}
+
+
+.warranty-content .right{
+
+}
+
+.warranty-content .right h3{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.warranty-content .right p{
+    margin-bottom: 10px;
+}
