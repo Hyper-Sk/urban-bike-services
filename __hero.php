@@ -11,7 +11,7 @@
             <form action="">
                 <label for="">Phone</label>
                 <input type="text" placeholder="Enter Mobile Number">
-                <button>Continue</button>
+                <button class="continue"> Continue</button>
             </form>
 
             <div class="rating">
@@ -30,6 +30,8 @@
                     </div>
                 </div>
             </div>
+
+             <button class="callnow"> <a href="">  <i class="bi bi-telephone-fill"></i> Call Now </a> </button>
         </div>
     </div>
 </section>

@@ -1,0 +1,147 @@
+/* ***************** header  ******************** */
+
+.header {
+    padding: 10px 15px;
+    background-color: #121212;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-inline: auto;
+    gap: 20px;
+}
+
+.header-content .header__logo {
+    width: 160px;
+}
+
+.header-content .header__logo img {}
+
+.header-content .header__menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-content .header__menu .menu__link {
+    font-weight: 500;
+    color: white;
+}
+
+.btn-outline {
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-outline {
+    background: #ffd900;
+    background: linear-gradient(160deg, rgba(255, 217, 0, 1) 1%, rgba(255, 0, 0, 1) 99%);
+    color: white;
+}
+
+
+.header-mobile {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-mobile .header__logo {
+    width: 120px;
+}
+
+.header-mobile .open {}
+
+.header-mobile .open i {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.aside {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 90vw;
+    background-color: #121212;
+    padding: 20px 30px;
+}
+
+.aside .menu {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    /* align-items: end; */
+}
+
+.aside .menu a{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 1px solid #262626;
+    padding: 10px 0 ;
+}
+
+
+.aside .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.aside .close i{
+    font-size: 30px;
+    color: white;
+}
+
+.aside .buttons {
+    margin-bottom: 50px;
+}
+
+.aside .buttons a {
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.aside .social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.aside .social-icons a i {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* Responsive  */
+
+
+@media screen and (max-width:768px) {
+    .header-content {
+        display: none;
+    }
+
+    .header-mobile {
+        display: flex;
+    }
+
+    .aside{
+        display: block;
+    }
+
+}

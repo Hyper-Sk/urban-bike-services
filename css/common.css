@@ -16,11 +16,15 @@
 :root {
     --color-text: #202020;
     --color-bg: #e90000;
-    --color-bg-dark:#202020;
-    
+    --color-bg-dark: #202020;
+
 }
 
-h1,h2,h3,h4,h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 500;
     font-family: "Lexend", sans-serif;
 
@@ -33,24 +37,37 @@ ul,
 li {
     list-style: none;
 }
-p,a,div,li,ul,section,header,footer,input{
+
+p,
+a,
+div,
+li,
+ul,
+section,
+header,
+footer,
+input {
     font-size: 14px;
 }
 
 
-h1 > span{
+h1>span {
     color: var(--color-bg);
 }
-h2 > span{
+
+h2>span {
     color: var(--color-bg);
 }
-h3 > span{
+
+h3>span {
     color: var(--color-bg);
 }
-h4 > span{
+
+h4>span {
     color: var(--color-bg);
 }
-h5 > span{
+
+h5>span {
     color: var(--color-bg);
 }
 
@@ -60,14 +77,44 @@ h5 > span{
 a {
     color: #202020;
     text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
 }
-a:hover{
+
+a:hover {
     /* opacity: 0.8; */
 }
 
 img {
     width: 100%;
 }
-button{
+
+button {
     cursor: pointer;
+}
+
+.btn-1 {
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    background: #ffd900;
+    background: linear-gradient(160deg, rgba(255, 217, 0, 1) 1%, rgba(255, 0, 0, 1) 99%);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-2 {
+    padding: 10px;
+    border: none;
+    background-color: var(--color-bg);
+    color: white;
+    border-radius: 7px;
+    background: #33bdab;
+    background: linear-gradient(148deg, rgba(51, 189, 171, 1) 0%, rgba(0, 60, 255, 1) 100%);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+
 }
